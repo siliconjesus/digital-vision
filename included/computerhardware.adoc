@@ -1,3 +1,5 @@
 == Hardware
 
-include::included/sunhardware.adoc[offset=1]
+include::sunhardware.adoc[offset=1]
+
+include::applehardware.adoc[offset=1]

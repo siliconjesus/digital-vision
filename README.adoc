@@ -1,3 +1,5 @@
 === Digital Vision
 
 include::included/about.adoc[leveloffset=1]
+
+include::included/computerhardware.adoc[leveloffset=1]

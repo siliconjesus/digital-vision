@@ -1,4 +1,4 @@
-== Sun Hardware
+= Sun Hardware
 
 I started working on Sun equipment during the sun4u era.  Most of my collected hardware reflects that time.
 
