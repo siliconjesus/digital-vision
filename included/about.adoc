@@ -1,0 +1,13 @@
+== About me
+
+I'm Jon Mentzell - I've been messing around with PCs from a very young age, when I was exposed to BASICA on a Compaq Luggable (8088).  I've been messing with computers on and off for a long time, learned C/C++ in College and switched pretty quickly to the path of Systems Administration and Cyber Security.
+
+I was able to switch early on from DOS / Windows administration to UNIX learning first SCO UNIX / SCO UnixWare, IBM AIX, HP-UX but my early years were largely spent on Sun Solaris professionally.  At the same time, I've been playing with Linux as a learning mechanism since 1995 when I bought my first copy of Yggdrasil Linux and eventually switched to Slackware for a number of years.  
+
+I've done much since those early years.  I've done custom solution development for threat hunting, combining capabilities across multiple platforms to provide a more holistic capability to help track down APT actors.  I've helped found a company with many other talented individuals, becoming the Senior VP of Product before leaving for my current world.
+
+I'm mostly a manager now - I'm a Managing Architect at Red Hat, serving in the Public Sector (US) consulting team.  I love empowering people and helping them realize their potential and goals.  
+
+In my spare time, I'm still a hardware geek.  I love computer hardware and will have a dedicated space to outline my collection and its current state.
+
+##TODO##
