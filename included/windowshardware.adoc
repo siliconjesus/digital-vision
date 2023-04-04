@@ -1,0 +1,23 @@
+[cols="2,4,1,4,4,8"]
+|===
+| Name
+| CPU
+| RAM
+| Video Card
+| Storage
+| Notes
+//
+| Megatron
+| AMD Ryzen 7 7700X 
+| 32G
+| NVidia 3600ti
+| 500gb Samsung 970 EVO, 2tb Samsung 870 EVO, 4tb Samsung 870 EVO
+| Main custom built desktop.  Mixed workstation and gaming functionality.  VR capable (HP Reverb G2)
+//
+| Galvatron
+| AMD Ryzen 7 
+| 32G 
+| NVidia 3500ti
+| 1tb m.2
+| Dell Gaming Laptop, mostly capable for mobile use.  Mixed workstation and gaming (16 GB of memory shared between CPU and GPU)
+|===
