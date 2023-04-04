@@ -1,3 +1,14 @@
-Thundercracker
+Apple Systems
 
-Starscream
+[cols="2,4,8"]
+|===
+| Name
+| Specs
+| Notes
+| Thundercracker
+| 
+| 
+| Starscream
+|
+|
+|===
