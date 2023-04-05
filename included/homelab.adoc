@@ -21,10 +21,10 @@
 | nfs
 | storage
 | 2 x Intel Xeon L5410 @ 2.33 GHz\
-| 16G
+| 8G
 | 256G RAID
 | RHEL 8
-| Storage for the proxmox server ISO images
+| Storage for the proxmox server ISO images, this was the original machine for Fornetix when we made our first appliance.  Before we had budget.
 //
 
 |===
