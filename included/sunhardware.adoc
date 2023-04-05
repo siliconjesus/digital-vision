@@ -4,10 +4,33 @@ I started working on Sun equipment during the sun4u era.  Most of my collected h
 
 #TODO# Enumerate the hardware list and its status.
 
-Sun v880
-
-Sun Ultra 2
-
-Sun Ultra 1
-
-Sun Ultra 1
+[cols="1,1,1,1,1,6"]
+|===
+| Name
+| Model
+| CPU
+| Memory
+| Storage
+| Notes
+//
+| v880
+| v880
+|
+| 16G
+| 
+| Previously was two v880s.  Combining.  Doesn't boot.
+//
+| Ultra 5
+| Ultra 5
+| 
+|
+| 
+| 
+//
+| Ultra 1
+| Ultra 1
+| 170Mhz UltraSPARC II 
+| 
+|
+| My first Sun box at home.  Dead eeprom.
+|===
