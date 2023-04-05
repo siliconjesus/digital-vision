@@ -1,10 +1,13 @@
-[cols="2,4,1,4,4,8"]
+= Windows Machines
+
+[cols="2,4,1,4,4,3,8"]
 |===
 | Name
 | CPU
 | RAM
 | Video Card
 | Storage
+| OS
 | Notes
 //
 | Megatron
@@ -12,6 +15,7 @@
 | 32G
 | NVidia 3600ti
 | 500gb Samsung 970 EVO, 2tb Samsung 870 EVO, 4tb Samsung 870 EVO
+| Windows 11 Pro
 | Main custom built desktop.  Mixed workstation and gaming functionality.  VR capable (HP Reverb G2)
 //
 | Galvatron
@@ -19,5 +23,6 @@
 | 32G 
 | NVidia 3500ti
 | 1tb m.2
+| Windows 11 Pro
 | Dell Gaming Laptop, mostly capable for mobile use.  Mixed workstation and gaming (16 GB of memory shared between CPU and GPU)
 |===
