@@ -1,0 +1,34 @@
+= Vintage Hardware
+
+[cols="1,1,1,1,1,8"]
+|===
+| model
+| OS
+| CPU
+| Memory
+| Storage
+| Notes
+//
+| Compaq Luggable
+| n/a
+| Intel 8088
+| 768k
+| 3.5" floppy
+| My first computer.  I still have it.
+//
+| Compaq Luggable
+| n/a
+| Intel 8088
+| 768k
+| 3.5" floppy
+| Gary Gardner (G2) gave this to me when he found out I had one.  So now I have two.
+//
+| Micron Desktop
+| FreeDOS
+| Pentium 133
+| 16mb
+| 
+| Building this system still.  Looking to play vintage games.
+// 
+
+|===
