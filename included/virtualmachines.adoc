@@ -1,10 +1,30 @@
-[cols="1,1,1,1,1,4"]
+= Virtual Machines
+
+[cols="1,1,1,1,1,1,4"]
 |===
 | Name
 | Purpose
 | CPUs
 | Memory
 | OS
+| Host
 | Notes
 //
+| RHEL9
+| RHEL 9 Test VM
+| 2 (M1)
+| 16G
+| RHEL9
+| work-macbook
+| Test Machine on my work macbook using UTM
+//
+| ns1
+| dns
+| 2
+| 16G
+| RHEL8
+| proxmox
+| primary homelab DNS
+//
+
 |===
