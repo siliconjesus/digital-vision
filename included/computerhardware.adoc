@@ -5,3 +5,9 @@ include::sunhardware.adoc[offset=1]
 include::applehardware.adoc[offset=1]
 
 include::windowshardware.adoc[offset=1]
+
+include::vintagehardware.adoc[offset=1]
+
+include::homelab.adoc[offset=1]
+
+include::virtualmachines.adoc[offset=1]
