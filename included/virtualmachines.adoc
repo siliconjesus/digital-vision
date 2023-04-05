@@ -1,0 +1,10 @@
+[cols="1,1,1,1,1,4"]
+|===
+| Name
+| Purpose
+| CPUs
+| Memory
+| OS
+| Notes
+//
+|===
