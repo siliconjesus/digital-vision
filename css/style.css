@@ -7,3 +7,8 @@ body {
 a {
     color: lightseagreen;
 }
+
+address {
+    display: block;
+    font-style: italic;
+}
