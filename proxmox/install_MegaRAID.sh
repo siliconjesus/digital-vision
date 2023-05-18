@@ -14,8 +14,8 @@ wget -O - https://hwraid.le-vert.net/debian/hwraid.le-vert.net.gpg.key | sudo ap
 echo "deb http://hwraid.le-vert.net/distrib $DEBIAN_VERSION main" >> /etc/apt/sources.list
 
 # Update
-apt update -y
+apt-get update -y
 
 # Install & clean up
-apt install -y megaclisas-status megacli megaraid-status
+apt-get install -y megaclisas-status megacli megaraid-status
 apt clean all
