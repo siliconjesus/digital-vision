@@ -18,6 +18,8 @@ Add networking to both systems
 * First NIC = primary interface, 192.168.1.20 & 192.168.1.21
 * Second NIC = 2.5gbit Interface, 192.168.92.20 & 192.168.92.21
 
+Use the install_MegaRAID.sh in the proxmox folder to install the megacli required to manage the PERC controllers on the Dell servers
+
 Setup cluster:
 Join other node to cluster using created secret
 
@@ -48,15 +50,28 @@ Start setting up infrastructure:
 | Disk
 | OS
 //
-| dns1
+| ns1
 | 2 Cores (HOST)
 | 4gb
 | 32gb
 | RHEL9
 //
-| dns2
+| ns2
 | 2 Cores (HOST)
 | 4gb
 | 32gb
 | RHEL9
 |===
+
+Update all repositories.
+
+[source, bash]
+----
+# dnf update -y
+----
+
+Configure named.conf for ns1 from dns/ns1/named.conf file to /etc/named.conf
+
+Copy in zones from /dns/zones to /etc/named/
+
+Open firewall ports for 53.
