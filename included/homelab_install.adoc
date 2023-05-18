@@ -1,0 +1,62 @@
+== Homelab Install
+
+Install FreeNAS SCALE to old AMD system.  4 x 6tb HDD, RAID-Z.  Shared out using NFS.
+- Dual NICs - 2.5gbit interface for Proxmox cluster
+
+Install Proxmox system #1
+
+* r620
+* 4 x 160gb HDD in RAID5
+
+Install Proxmox system #2
+
+* r720
+* 4 x 300gb HDD in RAID5
+
+Add networking to both systems
+
+* First NIC = primary interface, 192.168.1.20 & 192.168.1.21
+* Second NIC = 2.5gbit Interface, 192.168.92.20 & 192.168.92.21
+
+Setup cluster:
+Join other node to cluster using created secret
+
+Add the NAS storage via NFS
+
+Select all under Content:
+
+* Disk Image
+* ISO Image
+* Container Template
+* VZDump Backup Files
+* Container
+* Snippets
+
+Confirm storage goes good on both nodes.
+
+Start uploading ISO Images to the nfs mount.
+
+Start setting up infrastructure:
+
+* DNS (bind for internal, pihole for external, split DNS)
+
+[cols="1,1,1,1,1"]
+|===
+| name 
+| CPU
+| Ram
+| Disk
+| OS
+//
+| dns1
+| 2 Cores (HOST)
+| 4gb
+| 32gb
+| RHEL9
+//
+| dns2
+| 2 Cores (HOST)
+| 4gb
+| 32gb
+| RHEL9
+|===
