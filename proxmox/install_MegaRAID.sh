@@ -11,6 +11,7 @@ DEBIAN_VERSION=`grep VERSION_CODENAME /etc/os-release | awk -F\= '{print $2}'`
 wget -O - https://hwraid.le-vert.net/debian/hwraid.le-vert.net.gpg.key | sudo apt-key add -
 
 # Add the Source
+echo "#MegaRAID Drivers" >> /etc/apt/sources.list
 echo "deb http://hwraid.le-vert.net/debian $DEBIAN_VERSION main" >> /etc/apt/sources.list
 
 # Update
