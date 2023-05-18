@@ -1,0 +1,18 @@
+$TTL    604800
+@       IN      SOA     root.int.mentzell.us. contact.int.mentzell.us (
+                  1     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800     ; Minimum
+)
+
+  IN      NS      ns1.int.mentzell.us.
+  IN      NS      ns2.int.mentzell.us.
+
+1      IN    PTR    gateway.int.mentzell.us.
+10     IN    PTR    ns1.int.mentzell.us.
+11     IN    PTR    ns2.int.mentzell.us.
+20     IN    PTR    r620.int.mentzell.us.
+21     IN    PTR    r720xr.int.mentzell.us.
+147    IN    PTR    nas01.int.mentzell.us.
