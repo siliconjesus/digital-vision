@@ -17,5 +17,5 @@ echo "deb http://hwraid.le-vert.net/debian $DEBIAN_VERSION main" >> /etc/apt/sou
 apt-get update -y
 
 # Install & clean up
-apt-get install -y megaclisas-status megacli megaraid-status
+apt-get install -y megaclisas-status megacli
 apt clean all
